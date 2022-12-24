@@ -1,0 +1,100 @@
+.container {
+  width: 90%;
+  display: flex;
+  gap: 2%;
+  margin-top: 50px;
+ 
+}
+.left-container {
+  width: 23%;
+}
+.right-container {
+  margin-top: 20px;
+  width: 75%;
+}
+
+.right-container-product {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: auto;
+}
+
+.card-list {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 2px;
+  cursor: pointer;
+  /* identical to box height, or 100% */
+
+  text-transform: capitalize;
+
+  /* Text / 02 */
+
+  color: #505565;
+}
+.cardHeader {
+  display: flex;
+justify-content: space-between;
+  
+  border-bottom: 1px solid #d3d4d8;
+  margin-bottom: 20px;
+}
+.card-header-sub {
+  padding: 12px;
+  justify-content: space-between;
+  margin-bottom: 0;
+  background-color: white;
+  height: 38px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 2px;
+}
+
+.product-fevorite {
+  color: #a1a4b1;
+
+  font-size: 20px;
+
+  margin: 7% 80%;
+}
+
+.product-hit-like {
+  margin: 7% 80%;
+  color: red;
+  font-size: 20px;
+}
+
+.el-right-product{
+
+  border-radius: 50%;
+ box-sizing: border-box;
+
+position: absolute;
+width: 150px;
+height: 150px;
+right: -12px;
+top: 552px;
+
+opacity: 0.2;
+border: 40px solid #6DD400;
+}
+
+.el-left-product{
+
+  border-radius: 50%;
+ box-sizing: border-box;
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: -24px;
+top: 228px;
+
+/* P1 / 01 */
+
+background: #6DD400;
+opacity: 0.2;
+}
